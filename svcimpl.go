@@ -90,6 +90,9 @@ func (r RabidaImpl) DownloadFile(ctx context.Context, job Job, callback func(fil
 		if conf.Mode == "headless" {
 			opts = append(opts, chromedp.Headless)
 		}
+		if  len(conf.UserDataDir) > 0 {
+			opts = append(opts, chromedp.Flag("user-data-dir", conf.UserDataDir))
+		}
 		var (
 			allocCancel   context.CancelFunc
 			contextCancel context.CancelFunc
@@ -233,6 +236,9 @@ func (r RabidaImpl) CrawlWithListeners(ctx context.Context, job Job, callback fu
 		opts = append(opts, options...)
 		if conf.Mode == "headless" {
 			opts = append(opts, chromedp.Headless)
+		}
+		if  len(conf.UserDataDir) > 0 {
+			opts = append(opts, chromedp.Flag("user-data-dir", conf.UserDataDir))
 		}
 		if stringutils.IsNotEmpty(conf.Proxy) {
 			opts = append(opts, chromedp.ProxyServer(conf.Proxy))

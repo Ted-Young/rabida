@@ -37,7 +37,8 @@ type RabiConfig struct {
 	// ScrollTop refer to window.scrollTo parameters
 	ScrollTop string `split_words:"true" json:"scroll_top" default:"800"`
 	// ScrollLeft refer to window.scrollTo parameters
-	ScrollLeft string `split_words:"true" json:"scroll_left" default:"0"`
+	ScrollLeft  string `split_words:"true" json:"scroll_left" default:"0"`
+	UserDataDir string `split_words:"true" json:"user_data_dir"`
 }
 
 func LoadFromEnv() *RabiConfig {
