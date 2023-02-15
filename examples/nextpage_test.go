@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/Jeffail/gabs/v2"
-	service "github.com/JohnnyTing/rabida"
-	"github.com/JohnnyTing/rabida/config"
+	service "github.com/Ted-Young/rabida"
+	"github.com/Ted-Young/rabida/config"
 	"github.com/chromedp/chromedp"
 	"testing"
 )

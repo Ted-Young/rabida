@@ -3,9 +3,9 @@ package examples
 import (
 	"context"
 	"fmt"
-	. "github.com/JohnnyTing/rabida"
-	"github.com/JohnnyTing/rabida/config"
-	"github.com/JohnnyTing/rabida/lib"
+	. "github.com/Ted-Young/rabida"
+	"github.com/Ted-Young/rabida/config"
+	"github.com/Ted-Young/rabida/lib"
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/cdproto/page"
 	"github.com/chromedp/chromedp"

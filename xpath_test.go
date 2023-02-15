@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/Jeffail/gabs/v2"
-	"github.com/JohnnyTing/rabida/config"
+	"github.com/Ted-Young/rabida/config"
 	"github.com/chromedp/chromedp"
 	"github.com/sirupsen/logrus"
 	"testing"

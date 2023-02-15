@@ -2,8 +2,8 @@ package examples
 
 import (
 	"context"
-	"github.com/JohnnyTing/rabida/lib"
-	"github.com/JohnnyTing/rabida/useragent"
+	"github.com/Ted-Young/rabida/lib"
+	"github.com/Ted-Young/rabida/useragent"
 	"github.com/chromedp/cdproto/page"
 	"github.com/chromedp/chromedp"
 	"io/ioutil"

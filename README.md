@@ -1,6 +1,6 @@
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 
-### Rabida [中文](https://github.com/JohnnyTing/rabida/blob/master/README_ZH.md)
+### Rabida [中文](https://github.com/Ted-Young/rabida/blob/master/README_ZH.md)
 
 Rabida is a simply crawler framework based on [chromedp](https://github.com/chromedp/chromedp/) .
 
@@ -20,7 +20,7 @@ Rabida is a simply crawler framework based on [chromedp](https://github.com/chro
 ### Install
 
 ```go
-go get -u github.com/JohnnyTing/rabida
+go get -u github.com/Ted-Young/rabida
 ```
 
 ### Configuration
@@ -42,7 +42,7 @@ RABI_PROXY=
 
 ### Usage
 
-See [examples](https://github.com/JohnnyTing/rabida/blob/master/examples) for more details
+See [examples](https://github.com/Ted-Young/rabida/blob/master/examples) for more details
 
 Css Selector:
 

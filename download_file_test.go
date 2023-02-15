@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/JohnnyTing/rabida/config"
+	"github.com/Ted-Young/rabida/config"
 	"github.com/chromedp/cdproto/browser"
 	"github.com/chromedp/chromedp"
 	"github.com/pkg/errors"

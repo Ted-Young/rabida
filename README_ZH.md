@@ -20,7 +20,7 @@ Rabida 是一个基于 [chromedp](https://github.com/chromedp/chromedp) 简单�
 ### 安装
 
 ```go
-go get -u github.com/JohnnyTing/rabida
+go get -u github.com/Ted-Young/rabida
 ```
 
 ### 配置
@@ -42,7 +42,7 @@ RABI_PROXY=
 
 ### 用法
 
-这里看更多的例子 [examples](https://github.com/JohnnyTing/rabida/blob/master/examples)
+这里看更多的例子 [examples](https://github.com/Ted-Young/rabida/blob/master/examples)
 
 Css选择器使用：
 

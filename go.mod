@@ -1,4 +1,4 @@
-module github.com/JohnnyTing/rabida
+module github.com/Ted-Young/rabida
 
 go 1.16
 
